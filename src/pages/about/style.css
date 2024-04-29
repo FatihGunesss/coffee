@@ -1,0 +1,67 @@
+.about-info {
+    display: flex;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 100px 0 100px 70px;
+
+    background-image: url("assets/image/about-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-title {
+    width: 493px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.about-description {
+    width: 445px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.about-button {
+    width: 217px;
+    height: 56px;
+    background-color: #66D2CF;
+    color: #FEFCF7;
+    border-radius: 10px;
+    margin-top: 50px;
+    border-style: none;
+}
+
+.cards-wraprs {
+    display: flex;
+    /* position: relative; */
+}
+
+.about-text__wrap{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-our {
+    z-index: -1;
+    width: 1111px;
+    top: 230px;
+    left: 270px;
+    font-size: 150px;
+    background: linear-gradient(#96999d, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: -90px;
+    font-weight: 900;
+    letter-spacing: 10px;
+
+
+}
