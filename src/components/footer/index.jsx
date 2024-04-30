@@ -1,8 +1,6 @@
 import Logo from "assets/image/icons/logo-footer.svg";
-import Facebook from "assets/image/icons/feacebook.svg"
-import Tweeter from "assets/image/icons/tweeter.svg"
-import Instagram from "assets/image/icons/instagram.svg"
-import "assets/allstyles/all.css"
+import { Facebook, Tweeter, Instagram } from "assets/image/icons";
+import "assets/allstyles/all.css";
 import "./style.css";
 
 const Footer = () => {
@@ -36,19 +34,19 @@ const Footer = () => {
 
           <div className="footer-icons">
             <a className="footer-icons__link" href="#">
-              <img className="footer-icon" src={Facebook} alt="Facebook icon" />
+              <Facebook />
             </a>
             <a className="footer-icons__link" href="#">
-              <img className="footer-icon" src={Tweeter} alt="Tweeter icon" />
+              <Tweeter />
             </a>
-            <a footer-icons__link href="#">
-              <img className="footer-icon" src={Instagram} alt="Instagram icon" />
+            <a className="footer-icons__link" href="#">
+              <Instagram />
             </a>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

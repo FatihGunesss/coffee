@@ -2,7 +2,7 @@
     height: 120px;
     display: flex;
     background-color:#2C343E;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .footer-logo{
@@ -27,7 +27,10 @@
     color: #83888F;
     line-height: 15px;
     margin: 18px;
-    opacity: 0.8;
+}
+
+.footer-link:hover{
+    color:#FEFCF7;
 }
 
 .footer-icons{
@@ -36,8 +39,13 @@
     padding: 43px;
 }
 
-.footer-icon{
+.footer-icons__link svg {
+    fill: #ffF;
     margin-left: 30px;
+    transition: all ease .2s;
 }
 
+.footer-icons__link svg:hover{
+    fill: #FDD6BA;
+}
 
