@@ -1,34 +1,27 @@
-.section-info{
-    background-image: url("assets/image/expresso.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 255px;
-    height: 193px;
-    display: flex;
-    flex-direction: column;
-    
-    
+.section-info {
+    margin-right: 20px;
 }
 
-.coffee-name{
+.section-info:last-child {
+    margin-right: 0px;
+}
+
+.coffee-name {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 255px;
-    height: 32px;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    padding-top: 245px;
-    padding-left: 43px;
-    margin: 0;
+    text-align: center;
+    margin-top: 70px;
 }
 
-.coffee-description{
+.coffee-description {
     font-family: 'Barlow';
     width: 255px;
-    height: 78px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
+    margin-top: 24px;
 }

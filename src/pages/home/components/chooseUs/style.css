@@ -1,0 +1,81 @@
+.choose-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    padding-bottom: 317px;
+    border-radius: 10px;
+    background-color: #2C343E;
+}
+
+
+.choose-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.choose-description {
+    width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    opacity: 0.8;
+}
+
+.choose-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.choose-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 380px;
+    background-color: #0E8784;
+    border-radius: 10px;
+    margin-top: -215px;
+    margin-right: 30px;
+}
+
+.choose-card:last-child{
+    margin-right: 0;
+}
+
+.choose-image{
+    width: 72px;
+    height: 72px;
+}
+
+
+.choose-card__name{
+    width: 255px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+    
+    text-align: center;
+    padding-top: 56px;
+}
+
+.choose-card__description{
+    width: 255px;
+    font-family: 'Bardow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    padding-top: 24px;
+}
+

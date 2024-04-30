@@ -1,16 +1,14 @@
-import { Footer, Header, Card} from 'components';
-import { Home, About} from 'pages';
+import { Footer, Header } from "components";
+import { Home } from "pages";
 import "assets/allstyles/all.css";
-import "assets/allstyles/fonts.css"
+import "assets/allstyles/fonts.css";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Home/>
-      <About/>
-      
-      <Footer/> 
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
