@@ -1,7 +1,9 @@
 import Logo from "assets/image/icons/logo-footer.svg";
 import { Facebook, Tweeter, Instagram } from "assets/image/icons";
+import { Link } from "react-router-dom";
 import "assets/allstyles/all.css";
 import "./style.css";
+
 
 const Footer = () => {
   return (
@@ -15,19 +17,19 @@ const Footer = () => {
           <div className="footer-nav">
             <ul className="footer-nav__ul">
               <li className="footer-item">
-                <a href="#" className="footer-link">
+                <Link to="/home" className="footer-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="footer-item">
-                <a href="#" className="footer-link">
+                <Link to="about" className="footer-link">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="footer-item">
-                <a href="#" className="footer-link">
+                <Link to="/plan" className="footer-link">
                   Create Your Plan
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

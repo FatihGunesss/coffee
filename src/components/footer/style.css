@@ -27,6 +27,8 @@
     color: #83888F;
     line-height: 15px;
     margin: 18px;
+    transition: all ease 0.3s;
+    cursor: pointer;
 }
 
 .footer-link:hover{

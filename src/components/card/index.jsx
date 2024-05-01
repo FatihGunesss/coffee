@@ -1,4 +1,4 @@
-import Coffe from "assets/image/expresso.png";
+import Coffe from "assets/image/home-image/expresso.png";
 import "assets/allstyles/all.css";
 import "./style.css";
 

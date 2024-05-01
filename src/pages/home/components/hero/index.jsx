@@ -2,7 +2,7 @@ import React from "react";
 import "./index";
 import "assets/allstyles/all.css";
 import "./style.css";
-import { Card } from "components";
+import { Button } from "components";
 
 const About = () => {
   return (
@@ -17,11 +17,10 @@ const About = () => {
               expertly curated artisan coffees from our best roasters delivered
               directly to your door, at your schedule.
             </p>
-
-            <button className="hero-button">Create Your Plan</button>
+1
+            <Button title={"Create your plan"} style={{marginTop: '100px'}}/>
           </div>
         </div>
-       
       </div>
     </>
   );

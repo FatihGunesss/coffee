@@ -1,6 +1,7 @@
 import Logo from "assets/image/icons/logo.svg";
 import"assets/allstyles/all.css"
 import "./style.css";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -15,19 +16,19 @@ const Header = () => {
           <div className="header-nav">
             <ul className="nav">
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <Link to="/home" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <Link to="/about" className="nav-link">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <Link to="/plan" className="nav-link">
                   Create Your Plan
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

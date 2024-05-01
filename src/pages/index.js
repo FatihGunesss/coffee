@@ -1,5 +1,5 @@
 import Home from './home'
-import About from "./about"
+import About from "./about/components/aboutHero"
 import Subscription from './subscriptions'
 
 

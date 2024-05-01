@@ -2,6 +2,10 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+.container2 {
+    max-width: 1045px;
+    margin: 0 auto;
+}
 
 h1,
 h2,
@@ -13,3 +17,10 @@ p {
     margin: 0;
     padding: 0;
 }
+
+/* .app-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+} */

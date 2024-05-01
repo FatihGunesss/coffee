@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
 import "assets/allstyles/all.css";
+import { Button } from "components";
 
 const Works = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container2">
         <div className="works-box">
           <h3 className="works-title">How it works</h3>
         </div>
@@ -16,13 +17,10 @@ const Works = () => {
           <div className="works-line"></div>
           <div className="works-circle"></div>
         </div>
-        <div className="works-numbers">
-          <p className="works-number">01</p>
-          <p className="works-number">02</p>
-          <p className="works-number">03</p>
-        </div>
+
         <div className="works-info">
           <div>
+            <p className="works-number">01</p>
             <h3 className="works-name">
               Pick your <br /> coffee
             </h3>
@@ -32,7 +30,9 @@ const Works = () => {
               coffees in all profiles every month for you to try out.
             </p>
           </div>
+
           <div>
+            <p className="works-number">02</p>
             <h3 className="works-name">
               Choose the <br /> frequency
             </h3>
@@ -42,7 +42,9 @@ const Works = () => {
               commitment through our online portal.
             </p>
           </div>
+
           <div>
+            <p className="works-number">03</p>
             <h3 className="works-name">
               Receive and <br /> enjoy!
             </h3>
@@ -53,9 +55,7 @@ const Works = () => {
             </p>
           </div>
         </div>
-        <div className="works-button">
-          <button className="work-button">Create your plan</button>
-        </div>
+        <Button title={"Create your plan"} style={{ marginTop: "100px" }} />
       </div>
     </div>
   );

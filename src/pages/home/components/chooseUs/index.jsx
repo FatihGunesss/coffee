@@ -1,9 +1,9 @@
 import React from "react";
 import "assets/allstyles/all.css";
 import "./style.css";
-import Shape from "assets/image/Shape.svg"
-import Sovga from "assets/image/sovga.svg"
-import Dastavka from "assets/image/dastavka.svg"
+import Shape from "assets/image/icons/Shape.svg"
+import Sovga from "assets/image/icons/sovga.svg"
+import Dastavka from "assets/image/icons/dastavka.svg"
 
 const ChooseUs = () => {
   return (

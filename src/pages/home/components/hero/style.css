@@ -4,7 +4,7 @@
     border-radius: 20px;
     padding: 100px 0 100px 70px;
 
-    background-image: url("assets/image/about-image.png");
+    background-image: url("assets/image/home-image/about-image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,20 +25,6 @@
     color: #FEFCF7;
     opacity: 0.8;
     margin-top: 30px;
-}
-
-.hero-button {
-    width: 217px;
-    height: 56px;
-    background-color: #0E8784;
-    color: #FEFCF7;
-    border-radius: 10px;
-    margin-top: 50px;
-    border-style: none;
-}
-
-.hero-button:hover{
-    background-color:#66D2CF;
 }
 
 
