@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import "assets/allstyles/all.css";
 
-const About = () => {
+const AboutHero = () => {
   return (
     <div className="container">
       <div className="about-hero__info">
@@ -18,4 +18,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutHero;

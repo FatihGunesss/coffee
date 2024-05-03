@@ -1,9 +1,13 @@
-import React from 'react'
+import CompletedHero from "./components/completedHero"
+import Order from "./components/order"
 
-const Subscription = () => {
+const Subscriptions = () => {
   return (
-    <div>Subscription</div>
+    <div>
+        <CompletedHero/>
+        <Order/>
+    </div>
   )
 }
 
-export default Subscription
+export default Subscriptions

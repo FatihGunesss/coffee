@@ -1,0 +1,143 @@
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 159px;
+}
+
+.order-menu {
+    display: flex;
+    width: 255px;
+    align-items: center;
+    border-bottom: 1px solid #83888F;
+    padding: 24px 0 24px 0;
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.order-menu:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.order-menu:last-child {
+    border-bottom: none;
+}
+
+.selectet-menu {
+    opacity: 1;
+}
+
+.menu-number {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E8784;
+    margin-right: 28px;
+}
+
+.menu-title {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.filter{
+    width: 730px;
+    margin-top: 88px;
+}
+
+
+
+.filter-title__icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+
+.filter-wrapps {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    border-radius: 10px;
+}
+
+.filter-wrapp {
+    width: 228px;
+    background-color: #F4F1EB;
+    border-radius: 10px;
+    margin-right: 23px;
+    transition: all 1.5s;
+}
+
+.filter-wrapp:hover{
+    background-color: #FDD6BA;
+}
+
+.filter-wrapp-td{
+    padding: 32px 28px 84px 28px;
+}
+
+
+.filter-wrapps__title{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 28;
+}
+
+.filter-wrapps__descrip{
+    width: 172px;
+    font-family: 'Bardow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.summary{
+    width: 730px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    margin-top: 88px;
+}
+
+.summary-title{
+    color:#FFFFFF;
+    opacity: 0.5;
+}
+
+.summary-description{
+    width: 495px;
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.summary-td{
+    padding: 27px 64px 27px 64px;
+}
+
+span{
+    color: #0E8784;
+}
+
+.summary-button{
+    display: flex;
+    justify-content: end;
+}

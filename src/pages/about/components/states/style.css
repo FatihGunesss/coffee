@@ -1,0 +1,45 @@
+.states-title{
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888F;
+    margin-top: 168px;
+}
+
+
+.states-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+
+.states-image {
+    font-family: 'Fraunces';
+    font-size: 71px;
+    line-height: 71px;
+    font-weight: 900;
+    color: #FDD6BA;
+    margin-right: 225px
+}
+
+.states-name {
+    width: 275px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 45px;
+}
+
+.states-description {
+    width: 125px;
+    font-family: 'Bardow';
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin-top: 42px;
+    color: #333D4B;
+}

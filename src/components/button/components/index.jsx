@@ -1,4 +1,4 @@
-import "./style.css";
+import "../style.css";
 import "assets/allstyles/all.css";
 
 const Button = ({ style, title }) => {
