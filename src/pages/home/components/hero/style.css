@@ -28,3 +28,23 @@
 }
 
 
+
+
+
+@media only screen and (max-width: 768px) {
+    .hero-title {
+        width: 329px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .hero-description {
+        width: 374px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        margin-top: 30px;
+    }
+}

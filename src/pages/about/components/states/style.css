@@ -15,17 +15,16 @@
 }
 
 
+
 .states-image {
     font-family: 'Fraunces';
     font-size: 71px;
     line-height: 71px;
     font-weight: 900;
     color: #FDD6BA;
-    margin-right: 225px
 }
 
 .states-name {
-    width: 275px;
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 32px;
@@ -42,4 +41,11 @@
     line-height: 26px;
     margin-top: 42px;
     color: #333D4B;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    
 }

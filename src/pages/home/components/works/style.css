@@ -28,7 +28,7 @@
 }
 
 .works-line{
-    flex: 0.4;
+    flex: 0.35;
     height: 2px;
     background-color: #FDD6BA;
 }
@@ -72,5 +72,21 @@
     line-height: 26px;
     margin-top: 42px;
     color: #333D4B;
+}
+
+
+@media only screen and (max-width: 768px){
+    .container2{
+        width: 689px;
+    }
+
+    .works-ntd{
+        width: 223px;
+    }
+
+    .works-description{
+        width: 211px;
+    }
+
 }
 

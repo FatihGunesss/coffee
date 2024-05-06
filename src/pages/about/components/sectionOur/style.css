@@ -28,3 +28,25 @@
     margin-top: 32px;
 
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .section-our__info{
+        justify-content: space-between;
+    }
+
+    .section-our__image{
+        width: 289px;
+        height: 470px;
+        object-fit: cover;  
+    }
+
+
+    .section-our__description{
+        width: 339px;
+    }
+}

@@ -1,5 +1,6 @@
 import "./style.css";
 import "assets/allstyles/all.css";
+import "assets/allstyles/container.css"
 import Strelka from "assets/image/icons/strelka.svg";
 import { Button } from "components";
 

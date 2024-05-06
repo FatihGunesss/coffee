@@ -2,12 +2,13 @@ import Kalp from "assets/image/about-image/coffee-kalp.png"
 
 import "./style.css";
 import "assets/allstyles/all.css";
+import "assets/allstyles/container.css"
 
 const Quality = () => {
   return (
     <div className="container">
       <div className="quality-box">
-        <div>
+        <div className="quality-td">
           <h3 className="quality-title">Uncompromising quality</h3>
           <p className="quality-description">
             Although we work with growers who pay close attention to all stages

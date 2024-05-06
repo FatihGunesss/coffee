@@ -1,6 +1,7 @@
 import Logo from "assets/image/icons/logo.svg";
 import"assets/allstyles/all.css"
 import "./style.css";
+import "assets/allstyles/container.css"
 import { Link } from "react-router-dom";
 
 
@@ -16,7 +17,7 @@ const Header = () => {
           <div className="header-nav">
             <ul className="nav">
               <li className="nav-item">
-                <Link to="/home" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
                 </Link>
               </li>

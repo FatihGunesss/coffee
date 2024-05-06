@@ -1,4 +1,5 @@
 import React from "react";
+import "assets/allstyles/container.css"
 import "./style.css";
 import "assets/allstyles/all.css";
 import { Button } from "components";
@@ -19,7 +20,7 @@ const Works = () => {
         </div>
 
         <div className="works-info">
-          <div>
+          <div className="works-ntd">
             <p className="works-number">01</p>
             <h3 className="works-name">
               Pick your <br /> coffee
@@ -31,7 +32,7 @@ const Works = () => {
             </p>
           </div>
 
-          <div>
+          <div className="works-ntd">
             <p className="works-number">02</p>
             <h3 className="works-name">
               Choose the <br /> frequency
@@ -43,7 +44,7 @@ const Works = () => {
             </p>
           </div>
 
-          <div>
+          <div className="works-ntd">
             <p className="works-number">03</p>
             <h3 className="works-name">
               Receive and <br /> enjoy!

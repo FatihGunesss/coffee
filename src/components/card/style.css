@@ -25,3 +25,15 @@
     text-align: center;
     margin-top: 24px;
 }
+
+
+@media only screen and (max-width: 768px){
+    .section-info{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .coffe-img{
+        padding-top: 34px;
+    }
+}

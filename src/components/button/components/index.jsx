@@ -1,5 +1,6 @@
 import "../style.css";
 import "assets/allstyles/all.css";
+import "assets/allstyles/container.css"
 
 const Button = ({ style, title }) => {
   return (

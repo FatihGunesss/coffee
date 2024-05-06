@@ -1,5 +1,6 @@
 import React from "react";
 import "./index";
+import "assets/allstyles/container.css"
 import "assets/allstyles/all.css";
 import "./style.css";
 import { Button } from "components";

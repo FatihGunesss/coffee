@@ -1,16 +1,20 @@
 .footer{
-    height: 120px;
-    display: flex;
     background-color:#2C343E;
     margin-top: 200px;
 }
 
-.footer-logo{
-    margin: 40px 0 0 90px;
+.footer-info{
+    display: flex;
+    align-items: center;
+    padding: 47px 85px 47px 85px;
 }
 
+/* .footer-logo{
+    margin: 0 0 0 50px;
+} */
+
 .footer-nav__ul{
-    margin: 45px 0 0 50px;
+    margin: 0 0 0 80px;
 }
 
 .footer-item{
@@ -19,8 +23,6 @@
 }
 
 .footer-link{
-    width: 34px;
-    height: 15px;
     text-decoration: none;
     font-weight: 700;
     font-size: 12px;
@@ -36,9 +38,7 @@
 }
 
 .footer-icons{
-    position: relative;
-    left: 320px;
-    padding: 43px;
+    padding: 0 0 0 250px;
 }
 
 .footer-icons__link svg {
@@ -51,3 +51,34 @@
     fill: #FDD6BA;
 }
 
+
+@media only screen and (max-width: 768px){
+    .footer-info{
+        flex-direction: column;
+        padding: 54px 190px 54px 190px;
+    }
+    .footer-logo{
+        width: 236px;
+    }
+
+    .footer-nav__ul{
+        margin: 34px 0 0 10px;
+        
+    }
+
+    .footer-icons{
+        padding: 50px 37px 0 0;
+    }
+
+    .footer-icons__link svg {
+        fill: #ffF;
+        margin-left: 30px;
+        transition: all ease .2s;
+    }
+    
+
+    .footer-icons__link svg:hover{
+        fill: #FDD6BA;
+    }
+
+}

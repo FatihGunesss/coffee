@@ -1,6 +1,8 @@
 import "./style.css";
 import "assets/allstyles/all.css";
+import "assets/allstyles/container.css"
 import Barista from "assets/image/about-image/barista.png";
+
 
 const SectionOur = () => {
   return (

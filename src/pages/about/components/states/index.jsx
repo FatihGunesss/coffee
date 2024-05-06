@@ -1,5 +1,6 @@
 import "./style.css";
 import "assets/allstyles/all.css";
+import "assets/allstyles/container.css"
 
 import United from "assets/image/icons/united.svg";
 import Canada from "assets/image/icons/canada.svg";
@@ -10,7 +11,7 @@ const States = () => {
     <div className="container2">
       <h3 className="states-title">Our headquarters</h3>
       <div className="states-info">
-        <div>
+        <div className="states-tdi">
           <img className="states-image" src={United} alt="United" />
           <h3 className="states-name">United Kingdom</h3>
           <p className="states-description">
@@ -18,7 +19,7 @@ const States = () => {
           </p>
         </div>
 
-        <div>
+        <div className="states-tdi">
           <img className="states-image" src={Canada} alt="Canada" />
           <h3 className="states-name">Canada</h3>
           <p className="states-description">
@@ -26,7 +27,7 @@ const States = () => {
           </p>
         </div>
 
-        <div>
+        <div className="states-tdi">
           <img className="states-image" src={Australia} alt="Australia" />
           <h3 className="states-name">Australia</h3>
           <p className="states-description">

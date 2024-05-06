@@ -3,13 +3,17 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 450px;
     background-image: url("assets/image/about-image/aboutHero.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 14px;
     margin-top: 45px;  
+    
+}
+
+.about-hero__td{
+    padding: 137px 750px 137px 85px;
 }
 
 .about-title{
@@ -30,4 +34,30 @@
     color: #FEFCF7;
     margin-top: 24px;
     padding-left: 85px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .about-hero__info{
+        background-position: center;
+    }
+
+    .about-hero__td{
+        padding: 118px 233px 118px 1px;
+    }
+
+    .about-title{
+        font-size: 32px;
+        
+    }
+
+    .about-description{
+        width: 398px;
+        font-size: 15px;
+    }
 }
