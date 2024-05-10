@@ -13,7 +13,7 @@
 }
 
 .completed-hero__td{
-    padding: 134px 0 134px 0;
+    padding: 134px 0 134px 85px;
 }
 
 .completed-hero__title{
@@ -22,7 +22,6 @@
     font-weight: 900;
     line-height: 72px;
     color: #FEFCF7;
-    margin-left: 85px;
 }
 
 .completed-hero__decrip{
@@ -34,7 +33,6 @@
     color: #FEFCF7;
     opacity: 0.8;
     margin-top: 32px;
-    margin-left: 85px;
 }
 
 .completed-hero__box{
@@ -143,4 +141,36 @@
     .completed-line{
         flex: 0.35;
     }
+}
+
+
+@media only screen and (max-width: 576px){
+    .completed-hero__td{
+        text-align: center;
+        padding: 127px 24px 126px 24px;
+    }
+
+    .completed-circle__line{
+       display: none;
+    }
+
+    .completed-hero__info{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .completed-about__info {
+        padding: 80px 24px 79px 24px;
+    }
+
+    .completed-hero__tdn{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .completed-hero__descrip{
+        width: 490px;
+    }
+
 }

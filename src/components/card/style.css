@@ -37,3 +37,20 @@
         padding-top: 34px;
     }
 }
+
+
+@media only screen and (max-width: 576px){
+    .section-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffee-name{
+        margin-top: 24px;
+    }
+
+    .coffe-img{
+        margin-top: 45px;
+    }
+}

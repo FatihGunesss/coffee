@@ -1,13 +1,9 @@
-.works-box{
-    display: flex;
-    margin-top: 200px;
-}
-
 .works-title{
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 24px;
     color: #83888F;
+    margin-top: 200px;
 }
 
 .works-circle__line{
@@ -55,7 +51,6 @@
 
 
 .works-name{
-    width: 255px;
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 32px;
@@ -76,9 +71,6 @@
 
 
 @media only screen and (max-width: 768px){
-    .container2{
-        width: 689px;
-    }
 
     .works-ntd{
         width: 223px;
@@ -87,6 +79,49 @@
     .works-description{
         width: 211px;
     }
+
+}
+
+
+@media only screen and (max-width: 576px){
+    .works-circle__line{
+        display: none;
+    }
+
+    .works-title{
+        text-align: center;
+    }
+
+    .works-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .works-number{
+        margin-right: 0;
+    }
+
+    .works-name{
+        width: 355px;
+        text-align: center;
+    }
+
+    .works-description{
+        text-align: center;
+        width: 327px;
+    }
+
+    .works-ntd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+ 
+    .works-button{
+        text-align: center;
+    }
+
 
 }
 

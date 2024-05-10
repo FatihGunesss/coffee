@@ -22,7 +22,6 @@
     font-size: 40px;
     line-height: 48px;
     color: #FEFCF7;
-    padding-left: 85px;
 }
 
 .about-description{
@@ -33,7 +32,6 @@
     line-height: 26px;
     color: #FEFCF7;
     margin-top: 24px;
-    padding-left: 85px;
 }
 
 
@@ -48,16 +46,36 @@
     }
 
     .about-hero__td{
-        padding: 118px 233px 118px 1px;
+        padding: 118px 233px 118px 58px;
     }
 
     .about-title{
-        font-size: 32px;
-        
+        font-size: 32px; 
     }
 
     .about-description{
         width: 398px;
         font-size: 15px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 576px){
+
+
+    .about-hero__td{
+        padding: 111px 24px 87px 24px;
+        text-align: center;
+    }
+
+    .about-title{
+        text-align: center; 
+    }
+
+    .about-description{
+        width: 315px;
+        text-align: center;
     }
 }

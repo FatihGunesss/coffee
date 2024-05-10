@@ -51,7 +51,7 @@ const Subscriptions = () => {
               </p>
             </div>
 
-            <div className="complete  d-hero__tdn">
+            <div className="completed-hero__tdn">
               <p className="completed-number">03</p>
               <h3 className="completed-hero__name">
                 Receive and <br /> enjoy!

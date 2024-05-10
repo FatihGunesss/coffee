@@ -24,7 +24,7 @@
     color: #FDD6BA;
 }
 
-.states-name {
+c {
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 32px;
@@ -46,6 +46,32 @@
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 576px){
+    .states-info {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 72px;
+    }
+
+    .states-title{
+        text-align: center;
+    }
+
+    .states-image{
+        margin-top: 80px;
+    }
+
+    .states-tdi{
+        text-align: center;
+    }
+
+    .states-name{
+        text-align: center;
+        margin-top: 47px;
+    }
+
+    .states-description{
+        margin-top: 22px;
+    }
     
 }

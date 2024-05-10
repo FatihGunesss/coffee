@@ -59,3 +59,31 @@
         text-align: center;
     }
 }
+
+
+
+
+
+@media only screen and (max-width: 576px){
+    .quality-image{
+        width: 470px;
+        object-fit: cover;
+        margin-top: -140px;
+    }
+
+
+    .quality-title{
+        width: 322px;
+        text-align: center;
+    }
+
+
+    .quality-description{
+        width: 311px;
+        text-align: center;
+    }
+
+    .quality-td{
+        padding: 142px 24px 61px 24px;
+    }
+}

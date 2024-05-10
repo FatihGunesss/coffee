@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 370px 317px 370px;
     margin-top: 300px;
     padding-bottom: 317px;
     border-radius: 10px;
     background-color: #2C343E;
+}
+
+.choose-rd{
+    padding: 100px 370px 317px 370px;
 }
 
 
@@ -87,6 +90,7 @@
     .choose-box{
         margin-top: 144px;
     }
+
     .choose-cards{
         display: flex;
         flex-direction: column;
@@ -125,5 +129,48 @@
 
     .choose-description {
         padding-bottom: 70px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 576px){
+    .choose-box{
+        margin-top: 144px;
+        padding: 64px 24px 661px 24px; 
+    }
+
+    .choose-td{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 72px 12px 51px 12px;
+        
+    }
+
+    .choose-description {
+        width: 65%;
+    }
+
+    .choose-cards{
+        margin-top: -730px;
+    }
+
+
+    .choose-card{
+        width: 279px;
+        flex-direction: column;
+        
+    }
+
+    .choose-card__name{
+        text-align: center;
+    }
+
+    .choose-card__description{
+        width: 260px;
+        text-align: center;
     }
 }

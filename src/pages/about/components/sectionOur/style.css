@@ -50,3 +50,28 @@
         width: 339px;
     }
 }
+
+
+
+
+@media only screen and (max-width: 576px){
+    .section-our__info{
+        flex-direction: column;
+    }
+
+    .section-our__image{
+        width: 540px;
+        height: 470px;
+        object-fit: cover;  
+    }
+
+    .section-our__title{
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .section-our__description{
+        width: 444px;
+        text-align: center;
+    }
+}

@@ -11,13 +11,15 @@ const ChooseUs = () => {
     <div>
       <div className="container">
         <div className="choose-box">
-          <h3 className="choose-title">Why choose us?</h3>
-          <p className="choose-description">
-            A large part of our role is choosing which particular coffees will
-            be featured in our range. This means working closely with the best
-            coffee growers to give you a more impactful experience on every
-            level.
-          </p>
+          <div className="choose-td">
+            <h3 className="choose-title">Why choose us?</h3>
+            <p className="choose-description">
+              A large part of our role is choosing which particular coffees will
+              be featured in our range. This means working closely with the best
+              coffee growers to give you a more impactful experience on every
+              level.
+            </p>
+          </div>
         </div>
         <div className="choose-cards">
           <div className="choose-card">
