@@ -1,36 +1,121 @@
 /* Header-nav styles */
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.header-logo img{
-    margin-top: 12px;
+.menu-burger{
+    display: none;
 }
 
-.nav-item{
+.header-logo img {
+    margin-top: 0.75rem;
+}
+
+.nav-item {
     display: inline;
     list-style: none;
 }
 
-.nav-link{
-    width: 34px;
-    height: 15px;
+.nav-link {
     text-decoration: none;
     font-family: 'Barlow';
     font-weight: 700;
-    font-size: 12px;
-    color:#83888F;
-    line-height: 15px;
-    margin: 18px;
+    font-size: 0.875rem;
+    color: #83888F;
+    line-height: 0.940rem;
+    margin: 1.125rem;
     opacity: 0.7;
     transition: all ease 0.3s;
     cursor: pointer;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     opacity: 1;
-    color:#333D4B;
+    color: #333D4B;
 }
 
+
+
+
+
+
+
+
+/* Responsiv */
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+    .header{
+        padding: 10px;
+        color: aliceblue;
+        background: linear-gradient(to bottom, rgb(255, 254, 254), rgb(255, 255, 255));
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        z-index: 99;
+    }
+
+    .menu-icon{
+        width: 30px;
+    }
+
+    .menu-burger{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        z-index: 99;
+    }
+
+    .actived{
+        display: flex !important; 
+        transform: translateX(0) !important;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 72px;
+        right: 15px;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(21, 20, 20, 0.686);
+        background: linear-gradient(to bottom, rgb(255, 254, 254), rgb(255, 255, 255));
+        transform: translateX(470px);
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
+    }
+
+    .nav-item{
+        padding-top: 40px;
+    }
+
+    .nav-item:first-child{
+        padding-top: 0;
+    }
+
+    .nav-link{
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header-logo img {
+       width: 65%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header-logo img {
+        width: 60%;
+     }
+}

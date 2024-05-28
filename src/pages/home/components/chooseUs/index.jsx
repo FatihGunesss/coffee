@@ -8,7 +8,6 @@ import Dastavka from "assets/image/icons/dastavka.svg";
 
 const ChooseUs = () => {
   return (
-    <div>
       <div className="container">
         <div className="choose-box">
           <div className="choose-td">
@@ -27,7 +26,7 @@ const ChooseUs = () => {
               <img src={Shape} alt="Shape" />
             </div>
 
-            <div className="choose-td">
+            <div className="choose-hp">
               <h5 className="choose-card__name">Best quality</h5>
               <p className="choose-card__description">
                 Discover an endless variety of the world’s best artisan coffee
@@ -40,7 +39,7 @@ const ChooseUs = () => {
             <div className="choose-image">
               <img src={Sovga} alt="Sovga" />
             </div>
-            <div className="choose-td">
+            <div className="choose-hp">
               <h5 className="choose-card__name">Best quality</h5>
               <p className="choose-card__description">
                 Discover an endless variety of the world’s best artisan coffee
@@ -53,7 +52,7 @@ const ChooseUs = () => {
             <div className="choose-image">
               <img src={Dastavka} alt="Dastavka" />
             </div>
-            <div className="choose-td">
+            <div className="choose-hp">
               <h5 className="choose-card__name">Best quality</h5>
               <p className="choose-card__description">
                 Discover an endless variety of the world’s best artisan coffee
@@ -63,7 +62,6 @@ const ChooseUs = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

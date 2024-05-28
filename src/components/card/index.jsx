@@ -5,10 +5,9 @@ import "assets/allstyles/container.css";
 
 const Card = () => {
   return (
-    <>
       <div className="section-info">
         <div className="coffee-image">
-          <img src={Coffe} alt="coffe" className="coffe-img" />
+          <img src={Coffe} alt="coffe" className="coffee-img" />
         </div>
         <div className="section-td">
           <h2 className="coffee-name">Gran Espresso</h2>
@@ -18,7 +17,6 @@ const Card = () => {
           </p>
         </div>
       </div>
-    </>
   );
 };
 

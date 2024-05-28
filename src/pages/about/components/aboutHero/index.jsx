@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.css";
 import "assets/allstyles/all.css";
 import "assets/allstyles/container.css";

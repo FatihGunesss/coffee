@@ -1,6 +1,6 @@
 .cards-wraprs {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -15,7 +15,7 @@
     font-family: "Fraunces", serif;
     z-index: -1;
     font-size: 150px;
-    background: linear-gradient(#96999d, #fff);
+    background: linear-gradient(#77797a, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -28,6 +28,31 @@
 
 
 
+
+
+
+@media only screen and (max-width: 1200px){
+    .cards-wraprs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .cards-wraprs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .hero-our {
+        font-size: 120px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .cards-wraprs {
         display: flex;
@@ -35,22 +60,13 @@
     }
 
     .hero-our {
-        font-family: "Fraunces", serif;
-        z-index: -1;
         font-size: 96px;
-        background: linear-gradient(#96999d, #fff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
-        margin-bottom: -90px;
-        font-weight: 900;
-        letter-spacing: 10px;
     }
 }
 
 
-@media only screen and (max-width: 576px){
-    .hero-our{
+@media only screen and (max-width: 576px) {
+    .hero-our {
         font-size: 40px;
         font-weight: 900;
     }

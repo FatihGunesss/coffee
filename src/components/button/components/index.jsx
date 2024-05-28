@@ -1,12 +1,10 @@
 import "../style.css";
 import "assets/allstyles/all.css";
-import "assets/allstyles/container.css"
+import "assets/allstyles/container.css";
 
 const Button = ({ style, title }) => {
   return (
-    <div className="button" style={style}>
-      <button className="button">{title}</button>
-    </div>
+    <button className="button" style={style}> {title} </button>
   );
 };
 

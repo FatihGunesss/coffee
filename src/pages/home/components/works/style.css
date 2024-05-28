@@ -24,7 +24,7 @@
 }
 
 .works-line{
-    flex: 0.35;
+    flex: 0.4;
     height: 2px;
     background-color: #FDD6BA;
 }
@@ -39,8 +39,8 @@
     line-height: 71px;
     font-weight: 900;
     color: #FDD6BA;
-    margin-right: 225px
 }
+
 
 
 .works-info{
@@ -51,6 +51,7 @@
 
 
 .works-name{
+    width: 250px;
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 32px;
@@ -60,7 +61,7 @@
 }
 
 .works-description{
-    width: 285px;
+    width: 255px;
     font-family: 'Bardow';
     font-size: 16px;
     font-weight: 400px;
@@ -70,10 +71,34 @@
 }
 
 
+
+
+
+@media only screen and (max-width: 992px){
+    .works-line{
+        flex: 0.36;
+    }
+
+    .works-number{
+        font-size: 65px;
+       width: 280px;
+    }
+    
+
+    .works-description{
+        width: 255px;
+    }
+}
+
+
 @media only screen and (max-width: 768px){
 
+    .works-number{
+        width: 100px;
+     }
+
     .works-ntd{
-        width: 223px;
+        width: 225px;
     }
 
     .works-description{
@@ -97,31 +122,46 @@
         align-items: center;
     }
 
-    .works-number{
-        margin-right: 0;
-    }
-
-    .works-name{
-        width: 355px;
-        text-align: center;
-    }
-
-    .works-description{
-        text-align: center;
-        width: 327px;
-    }
-
     .works-ntd{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
     }
+
+    .works-number{
+        font-size: 65px;
+        margin-right: 0;
+    }
+
+    .works-name{
+        width: 355px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .works-description{
+        width: 327px;
+        text-align: center;
+    }
  
     .works-button{
         text-align: center;
     }
+}
 
 
+@media only screen and (max-width: 425px){
+    .works-number{
+        font-size: 60px;
+    }
+
+    .works-name{
+        font-size: 22px;
+    }
+
+    .works-description{
+        font-size: 12px;
+    }
 }
 

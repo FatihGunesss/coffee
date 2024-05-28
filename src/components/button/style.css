@@ -1,19 +1,45 @@
 .button{
-    padding: 10px 15px;
-    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    padding: 0.940rem 1.880rem;
+    border-radius: 0.625rem;
     border-style: none;
     background-color: #0E8784;
     color: #fff;
     font-family: 'Fraunces';
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     transition: all ease 0.3s;
-    cursor: pointer;
-    display: inline-block;
-    
+    cursor: pointer;  
 }
 
 .button:hover{
     background-color: #66D2CF;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .button{
+        width: 32%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .button{
+        width: 45%;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .button{
+        width: 55%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .button{
+        width: 65%;
+    }
+  }

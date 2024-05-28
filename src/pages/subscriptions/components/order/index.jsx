@@ -146,11 +146,10 @@ const Order = () => {
       <div className="order">
         <div className="order-left">
           {leftData.map((item, index) => (
-            <div
-              onClick={() => setActived(item.id)}
+            <div onClick={() => setActived(item.id)}
               className={`order-menu ${
                 actived === item.id ? "selected-menu" : ""
-              }`}
+               }`}
               key={item.id}
             >
               <p className="menu-number">{"0" + (index + 1)}</p>
