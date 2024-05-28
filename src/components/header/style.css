@@ -5,7 +5,7 @@
     align-items: baseline;
 }
 
-.menu-burger{
+.menu-burger {
     display: none;
 }
 
@@ -52,19 +52,26 @@
 @media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 576px) {
-    .header{
+    .header {
         padding: 10px;
         color: aliceblue;
         background: linear-gradient(to bottom, rgb(255, 254, 254), rgb(255, 255, 255));
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
         z-index: 99;
     }
 
-    .menu-icon{
+    .header-logo img {
+        width: 70%;
+        margin-top: 0;
+        padding-bottom: 5px;
+    }
+
+
+    .menu-icon {
         width: 30px;
     }
 
-    .menu-burger{
+    .menu-burger {
         background-color: transparent;
         display: flex;
         justify-content: center;
@@ -73,49 +80,48 @@
         z-index: 99;
     }
 
-    .actived{
-        display: flex !important; 
+    .actived {
+        display: flex !important;
         transform: translateX(0) !important;
     }
 
-    .nav{
+    .nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items: start;
         flex-direction: column;
         position: fixed;
         top: 72px;
         right: 15px;
         width: 50%;
         height: 100vh;
-        background-color: rgba(21, 20, 20, 0.686);
-        background: linear-gradient(to bottom, rgb(255, 254, 254), rgb(255, 255, 255));
+        background: linear-gradient(to bottom, rgb(255, 254, 254), rgba(255, 255, 255, 0.821));
         transform: translateX(470px);
         transition: all 0.5s ease-in-out;
         z-index: 1;
     }
 
-    .nav-item{
+    .nav-item {
         padding-top: 40px;
     }
 
-    .nav-item:first-child{
-        padding-top: 0;
-    }
 
-    .nav-link{
+    .nav-link {
         color: #000;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .header-logo img {
-       width: 65%;
+        width: 65%;
+        margin-top: 0;
+        padding-bottom: 5px;
     }
+
+
 }
 
 @media only screen and (max-width: 375px) {
     .header-logo img {
         width: 60%;
-     }
+    }
 }
