@@ -8,11 +8,11 @@ const SectionOur = () => {
   return (
     <div className="container">
       <div className="section-our__info">
-        <div>
-          <img className="section-our__image" src={Barista} alt="Barista" />
+        <div className="section-our__image">
+          <img className="section-our__img" src={Barista} alt="Barista" />
         </div>
 
-        <div>
+        <div className="section-our__td">
           <h1 className="section-our__title">Our commitment</h1>
           <p className="section-our__description">
             We’re built on a simple mission and a commitment to doing good along

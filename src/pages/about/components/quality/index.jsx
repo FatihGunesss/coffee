@@ -20,7 +20,7 @@ const Quality = () => {
           </p>
         </div>
 
-        <div>
+        <div className="quality-img">
           <img className="quality-image" src={Kalp} alt="Coffee-Kalp" />
         </div>
       </div>

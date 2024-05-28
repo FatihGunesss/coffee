@@ -37,10 +37,13 @@
 
 
 
-
+@media only screen and (max-width: 992px){
+    .about-hero__td{
+        padding: 137px 640px 137px 85px;
+    }
+}
 
 @media only screen and (max-width: 768px){
-
     .about-hero__info{
         background-position: center;
     }
@@ -59,14 +62,9 @@
     }
 }
 
-
-
-
 @media only screen and (max-width: 576px){
-
-
     .about-hero__td{
-        padding: 111px 24px 87px 24px;
+        padding: 111px 100px 87px 110px;
         text-align: center;
     }
 
@@ -76,6 +74,20 @@
 
     .about-description{
         width: 315px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .about-description{
+        width: 190px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .about-hero__td{
+        padding: 111px 75px 87px 70px;
         text-align: center;
     }
 }
