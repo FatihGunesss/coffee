@@ -94,7 +94,6 @@
     margin-top: 56px;
     border-radius: 10px;
     transition: all ease 0.3s;
-    /* transform: translateY(0); */
     opacity: 0;
     position: absolute;
     top: -200px;
@@ -116,7 +115,7 @@
 }
 
 .filter-wrapp:hover {
-    background-color: #FDD6BA;
+    background-color: #0E8784;
 }
 
 .filter-wrapp-td {
@@ -188,7 +187,19 @@ span {
 
 
 
+@media only screen and (max-width: 992px){
+    .order-left {
+        display: none;
+    }
 
+    .order {
+        justify-content: center;
+    }
+
+    .summary-button {
+        justify-content: center;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .order-left {
@@ -218,8 +229,12 @@ span {
     }
 
     .filter-title {
-        font-size: 24px;
         width: 435px;
+        font-size: 24px;
+    }
+
+    .collapsed-title {
+        margin-bottom: 120%;
     }
 
     .filter-wrapps {
@@ -234,7 +249,7 @@ span {
     }
 
     .filter-wrapp {
-        width: 480px;
+        width: 440px;
         margin-top: 16px;
         margin-right: 0;
     }
@@ -243,7 +258,7 @@ span {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 24px 24px 25px;
+        padding: 24px 24px 25px 24px;
     }
 
     .filter-wrapps__descrip {
@@ -251,16 +266,94 @@ span {
     }
 
     .summary {
-        width: 327px;
-        margin-left: 80px;
+        width: 454px;
     }
 
     .summary-td {
-        padding: 32px 24px 32px 24px;
+        text-align: center;
     }
 
 
     .summary-description {
-        width: 244px;
+        width: 323px;
     }
+
+    .summary-button {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .order-right{
+        width: 100%;
+    }
+
+    .filter-wrapp {
+        width: 400px;
+        margin-top: 16px;
+        margin-right: 0;
+    }
+
+    .filter-wrapp-td {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 24px 25px 24px;
+    }
+
+    .filter-title{
+        font-size: 20px;
+    }
+
+
+    .collapsed-title {
+        margin-bottom: 135%;
+    }
+
+    .summary {
+        width: 392px;
+    }
+
+    .summary-description {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .order-right{
+        width: 100%;
+    }
+
+    .filter-wrapp {
+        width: 330px;
+        margin-top: 16px;
+        margin-right: 0;
+    }
+
+    .filter-wrapp-td {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 24px 25px 24px;
+    }
+
+    .filter-title{
+        font-size: 16px;
+    }
+
+    .collapsed-title {
+        margin-bottom: 165%;
+    }
+
+    .summary {
+        width: 320px;
+    }
+
+    .summary-description {
+        font-size: 16px;
+        width: 190px;
+    }
+
 }

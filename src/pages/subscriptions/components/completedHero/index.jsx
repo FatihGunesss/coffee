@@ -8,7 +8,7 @@ const Subscriptions = () => {
       <div className="completed-hero">
         <div className="completed-hero__td">
           <h1 className="completed-hero__title">Create a plan</h1>
-          <p className="completed-hero__decrip">
+          <p className="completed-hero__descrip">
             Build a subscription plan that best fits your needs. We offer an
             assortment of the best artisan coffees from around the globe
             delivered fresh to your door.
